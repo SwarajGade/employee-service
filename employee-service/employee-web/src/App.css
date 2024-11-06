@@ -1,0 +1,95 @@
+.main-container{
+  width: 600px;
+  height: fit-content;
+  margin-left: 75px;
+}
+h3{
+  color: blueviolet;
+}
+
+.add-panel{
+  width: 600px;
+  height: 60px;
+  border: 1px solid;
+  background-color: aquamarine;
+}
+
+.searchinput{
+  margin-top: 15px;
+  border: 1px solid;
+  border-radius: 5px;
+  height: 25px;
+  width: 210px;
+  background-color: aliceblue;
+
+}
+.addpaneldiv{
+  margin-left: 5px;
+  display: inline-block;
+}
+.addpanelinput{
+  border: 1px solid;
+  border-radius: 5px;
+  height: 25px;
+  width: 140px;
+  background-color: antiquewhite;
+}
+.addBtn{
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 11px;
+  line-height: 15px;
+  margin-left: 5px;
+  width: 60px;
+  background-color: rgb(175,231, 175);
+
+}
+.cancelBtn{
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 11px;
+  line-height: 15px;
+  margin-left: 5px;
+  width: 60px;
+  background-color: rgb(175,231, 175);
+
+}
+
+.table{
+  margin-top: 12px;
+  width: 600px;
+  height: fit-content;
+  border: 1px solid;
+  border-collapse: collapse;
+  margin-left: 75px;
+  text-align: center;
+}
+th{
+  border: 1px solid;
+  font-size: 15px;
+  line-height: 18px;
+  background-color: rgb(176, 176, 235);
+}
+tr:nth-child(even){
+  background-color: rgb(207, 181, 231);
+}
+td{
+  border: 1px solid;
+  font-size: 15px;
+  line-height: 18px;
+}
+.editBtn{
+  border: 1px solid;
+  font-size: 10px;
+  line-height: 12px;
+  width: 50px;
+  background-color: rgb(175,231, 175);
+}
+.deleteBtn{
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 10px;
+  line-height: 12px;
+  width: 50px;
+  background-color: rgb(236,154, 77);
+}
